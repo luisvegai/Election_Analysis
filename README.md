@@ -16,7 +16,6 @@ A Colorado Board of Elections employee has given me the following tasks to compl
 - Software: Python 3.7.6, Visual Studio Code 1.44.2
 
 ## Summary
-
 The analysis of the election show that:
 - There were "x" votes cast in the election
 - The candiadtes were:
