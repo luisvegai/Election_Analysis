@@ -98,11 +98,13 @@ with open(file_to_save, "w") as txt_file:
             print(county_results)
             txt_file.write(county_results)
         if (votes_c > largest_county_count):
+            largest_county_count = votes_c
             largest_county_voting = county_name
     county_voting_summary = (
         f"-------------------------\n"
         f"Largest County Turnout: {largest_county_voting}\n"
         f"-------------------------\n")
+    print(county_voting_summary)
     txt_file.write(county_voting_summary)
 # Determine the percentage of votes for each candidate by looping through the counts.
 # 1. Iterate through the candidate list.
